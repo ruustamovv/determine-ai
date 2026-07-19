@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Node
+node_modules/
+frontend/build/
+admin/build/
+
+# Environment
+.env
+.env.local
+.env.production
+
+# Model cache
+.cache/
+models/
+
+# Fine-tuning
+finetune/checkpoints/
+finetune/data/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temp
+_gen.py
+*.log

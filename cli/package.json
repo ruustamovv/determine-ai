@@ -1,0 +1,19 @@
+{
+  "name": "determine-coder",
+  "version": "1.0.0",
+  "description": "Determine-Coder - AI coding assistant in your terminal",
+  "main": "index.js",
+  "bin": {
+    "determine-coder": "./index.js",
+    "dc": "./index.js"
+  },
+  "keywords": ["ai", "cli", "coding", "assistant", "code-generation", "refactor", "debug"],
+  "author": "Determine-AI",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "ora": "^5.4.1",
+    "chalk": "^4.1.2",
+    "inquirer": "^8.2.6"
+  }
+}
